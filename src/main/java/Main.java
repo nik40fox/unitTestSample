@@ -3,15 +3,8 @@
  */
 public class Main {
 
-    public static void main(String args[]){
-        System.out.println("hello");
-        int y =1;
-        int k;
-        for(k=6; k>=3;k--)
-            y = y + k;
-            System.out.println("y = " + y);
-            System.out.println("k = " + k);
-
+    public static void main(String args[]) {
+        SomeAction someAction = new SomeAction();
+        someAction.doSmthn();
     }
-
 }
